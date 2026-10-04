@@ -237,7 +237,21 @@ if st.session_state.show_message:
 
             
 "كل عام وأنتِ أثرٌ جميل لا يُنسى 🌷"
-       
+     st.markdown("### 🤍 كل عام وأنتِ أثرٌ لا يُنسى")
+   if not st.session_state.gift_opened:
+       if st.button("🎁 اكتشفي هديتكِ", use_container_width=True):
+           st.session_state.gift_opened = True
+           st.rerun()
+   else:
+       st.success(
+           "💌 هديتكِ اليوم:\n\n"
+           "كلمة شكر صادقة من كل طالبة تعلمت منكِ شيئًا جميلًا."
+       )
+       flower_line = " ".join(
+           random.choice(flowers) for _ in range(15)
+       )
+       st.write(f"### {flower_line}")
+st.divider()  
         """,
         unsafe_allow_html=True
     )
