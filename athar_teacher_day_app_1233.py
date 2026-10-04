@@ -232,14 +232,14 @@ if st.session_state.show_message:
             <div class="message">
                 {st.session_state.message}
             </div>
-st.info(
+    st.info(
    "📡 أنتِ مثل شبكة Wi-Fi\n\n"
-   "تصلين طالباتكِ بالمعرفة مهما كان السؤال."
-)
+   "تصلين طالباتكِ بالمعرفة مهما كان السؤال.")
+
             
 
-           st.caption("كل عام وأنتِ أثرٌ جميل لا يُنسى 🌷")
-        </div>
+    st.caption("كل عام وأنتِ أثرٌ جميل لا يُنسى 🌷")
+       
         """,
         unsafe_allow_html=True
     )
