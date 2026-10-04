@@ -1,5 +1,6 @@
 import streamlit as st
 import random
+background-color: #FFD6D6;
 
 st.set_page_config(
     page_title="أثركِ | يوم المعلم",
