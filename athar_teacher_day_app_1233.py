@@ -232,15 +232,13 @@ if st.session_state.show_message:
             <div class="message">
                 {st.session_state.message}
             </div>
+st.info(
+   "📡 أنتِ مثل شبكة Wi-Fi\n\n"
+   "تصلين طالباتكِ بالمعرفة مهما كان السؤال."
+)
+            
 
-            <div class="tech-box">
-                <strong>{tech_title}</strong><br>
-                {tech_text}
-            </div>
-
-            <div style="margin-top:25px;font-size:19px;color:#b84d7d;font-weight:700;">
-                كل عام وأنتِ أثرٌ لا يُنسى 🤍
-            </div>
+           st.caption("كل عام وأنتِ أثرٌ جميل لا يُنسى 🌷")
         </div>
         """,
         unsafe_allow_html=True
