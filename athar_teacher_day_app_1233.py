@@ -87,6 +87,7 @@ div.stButton > button {
     font-weight: 700;
     border: none;
     display: flex;
+    text-align: center;
     justify-content: center;
     
 }
