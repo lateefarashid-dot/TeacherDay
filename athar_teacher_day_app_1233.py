@@ -12,7 +12,7 @@ st.set_page_config(
 st.markdown("""
 <style>
 @import url('https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700;800&display=swap');
-background-color: #FFD6D6;
+
 html, body, [class*="css"] {
     font-family: 'Cairo', sans-serif;
 }
