@@ -254,7 +254,7 @@ if st.session_state.show_message:
 
 
 st.markdown(
-    '<div class="footer">💻 فريق رواد التقنية | يوم المعلم 2026</div>',
+    '<div class="footer">💻فريق رواد التقنية | يوم المعلم 2026</div>',
     unsafe_allow_html=True
 )
 
