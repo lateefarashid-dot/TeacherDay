@@ -247,11 +247,7 @@ if st.session_state.show_message:
            "💌 هديتكِ اليوم:\n\n"
            "كلمة شكر صادقة من كل طالبة تعلمت منكِ شيئًا جميلًا."
        )
-       flower_line = " ".join(
-           random.choice(flowers) for _ in range(15)
-       )
-       st.write(f"### {flower_line}")
-st.divider()  
+      
         """,
         unsafe_allow_html=True
     )
