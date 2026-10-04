@@ -233,7 +233,7 @@ if st.session_state.show_message:
                 {st.session_state.message}
             </div>
 
-   📡 أنتِ مثل شبكة 
+   📡 أنتِ مثل شبكة \n
    Wi-Fi\n\n
    تصلين طالباتكِ بالمعرفة مهما كان السؤال
 
