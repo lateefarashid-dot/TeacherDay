@@ -232,24 +232,18 @@ if st.session_state.show_message:
             <div class="message">
                 {st.session_state.message}
             </div>
-    st.info(
+st.info(
    "📡 أنتِ مثل شبكة Wi-Fi\n\n"
    "تصلين طالباتكِ بالمعرفة مهما كان السؤال.")
 
             
-
-    st.caption("كل عام وأنتِ أثرٌ جميل لا يُنسى 🌷")
+st.caption("كل عام وأنتِ أثرٌ جميل لا يُنسى 🌷")
        
         """,
         unsafe_allow_html=True
     )
 
-    if st.button("🎁 اكتشفي هديتكِ"):
-        st.success(
-            "💌 هديتكِ اليوم: كلمة شكر صادقة من كل طالبة تعلمت منكِ شيئًا جميلًا."
-        )
-        st.session_state.flowers = True
-        st.rerun()
+
 
 st.markdown(
     '<div class="footer">💻 فريق رواد التقنية | يوم المعلم 2026</div>',
