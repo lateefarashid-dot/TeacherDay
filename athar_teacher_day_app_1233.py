@@ -233,20 +233,13 @@ if st.session_state.show_message:
                 {st.session_state.message}
             </div>
 
-   "📡 أنتِ مثل شبكة Wi-Fi\n\n تصلين طالباتكِ بالمعرفة مهما كان السؤال"
+   📡 أنتِ مثل شبكة 
+   Wi-Fi\n\n
+   تصلين طالباتكِ بالمعرفة مهما كان السؤال
 
             
-"كل عام وأنتِ أثرٌ جميل لا يُنسى 🌷"
-     st.markdown("### 🤍 كل عام وأنتِ أثرٌ لا يُنسى")
-   if not st.session_state.gift_opened:
-       if st.button("🎁 اكتشفي هديتكِ", use_container_width=True):
-           st.session_state.gift_opened = True
-           st.rerun()
-   else:
-       st.success(
-           "💌 هديتكِ اليوم:\n\n"
-           "كلمة شكر صادقة من كل طالبة تعلمت منكِ شيئًا جميلًا."
-       )
+كل عام وأنتِ أثرٌ جميل لا يُنسى 🌷
+   
       
         """,
         unsafe_allow_html=True
