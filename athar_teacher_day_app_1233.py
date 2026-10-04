@@ -85,8 +85,7 @@ div.stButton > button {
     font-size: 18px;
     font-weight: 700;
     border: none;
-    display:block;
-    margin:auto;
+    justify-content:center;
 }
 </style>
 """, unsafe_allow_html=True)
