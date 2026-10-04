@@ -9,10 +9,7 @@ st.set_page_config(
 )
 
 # ---------- CSS ----------
-.button-container {
-display: flex;
-justify-content: center;
-}
+
 st.markdown("""
 <style>
 @import url('https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700;800&display=swap');
@@ -89,6 +86,8 @@ div.stButton > button {
     font-size: 18px;
     font-weight: 700;
     border: none;
+    display: flex;
+    justify-content: center;
     
 }
 </style>
@@ -153,7 +152,7 @@ name = st.text_input(
     label_visibility="collapsed"
 )
 
-if st.button(<button>✨ اكتشفي رسالتك</button>):
+if st.button("✨ اكتشفي رسالتك"):
     if name.strip():
         st.session_state.show_message = True
         st.session_state.message = random.choice(messages)
