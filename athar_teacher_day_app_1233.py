@@ -85,6 +85,8 @@ div.stButton > button {
     font-size: 18px;
     font-weight: 700;
     border: none;
+    display:block;
+    margin:auto;
 }
 </style>
 """, unsafe_allow_html=True)
@@ -128,7 +130,7 @@ if "flowers" not in st.session_state:
 # ---------- Header ----------
 st.markdown('<div class="main-title">🌷 أثركِ</div>', unsafe_allow_html=True)
 st.markdown(
-    '<div class="subtitle">رسالة صُنعت خصيصًا لكِ بمناسبة يوم المعلم 💗</div>',
+    '<div class="subtitle">💗رسالة صُنعت خصيصًا لكِ بمناسبة يوم المعلم </div>',
     unsafe_allow_html=True
 )
 
